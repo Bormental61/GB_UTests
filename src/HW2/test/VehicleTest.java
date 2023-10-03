@@ -35,8 +35,8 @@ class VehicleTest {
 
     @Test
     public void checkBikeSpeed() {
-        moto.testDrive();
-        assertEquals(moto.getSpeed(), 75);
+        bike.testDrive();
+        assertEquals(bike.getSpeed(), 75);
     }
 
     @Test
@@ -48,8 +48,8 @@ class VehicleTest {
 
     @Test
     public void checkBikePark() {
-        moto.testDrive();
-        moto.park();
-        assertEquals(moto.getSpeed(), 0);
+        bike.testDrive();
+        bike.park();
+        assertEquals(bike.getSpeed(), 0);
     }
 }
